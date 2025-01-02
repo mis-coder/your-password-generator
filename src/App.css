@@ -31,7 +31,7 @@
    outline: none;
 }
 
-.regenerate-btn{
+.copy-btn{
     background-color: #eaecee;
     border: none;
     border-top-right-radius: 6px;
@@ -42,10 +42,10 @@
     color: #393a3b
 }
 
-.copy-btn{
+.regenerate-btn{
     display: flex;
     justify-content: center;
-    background-color: #f39c12;
+    background-color: #de3489;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -53,6 +53,12 @@
     cursor: pointer;
     text-transform: capitalize;
     font-size: 15px;
+    font-weight: 500;
+}
+
+.regenerate-btn:hover{
+    background-color:#d8669f;
+    transition: background-color 0.5s ease-out;
 }
 
 .settings{
@@ -154,7 +160,7 @@
 }
 
 .toggle-switch input:checked + .slider {
-    background-color:#f39c12 ;
+    background-color:#de3489 ;
 }
 
 .toggle-switch input:checked + .slider::before {
