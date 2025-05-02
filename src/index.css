@@ -1,0 +1,14 @@
+:root{
+  --primary-color: #de3489;
+  --primary-font: Poppins, sans-serif;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #e6ecf2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--primary-font);
+}
